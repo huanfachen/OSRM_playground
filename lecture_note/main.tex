@@ -2,11 +2,14 @@
 \usetheme{ucl}
 
 %Path relative to the main .tex file 
-\graphicspath{ {./images/} }
+\graphicspath{ {./Image/} }
 \usepackage[style=authoryear-ibid,backend=biber,doi=false,isbn=false,url=false]{biblatex}
 \addbibresource{references.bib}
 
 \usepackage[export]{adjustbox}
+
+\usepackage[UTF8]{ctex}
+% \usepackage{nsfc}
 % \usepackage[noindent,UTF8]{ctexcap}
 
 %%% Increase the height of the banner: the argument is a scale factor >=1.0
@@ -131,7 +134,7 @@
 %     \begin{column}{.5\textwidth}
 %   \end{column}
     \begin{column}{\textwidth}
-    \includegraphics[max size={\textwidth}{\textheight}]{images/route-planning-on-paper-map.jpg}
+    \includegraphics[max size={\textwidth}{\textheight}]{Image/route-planning-on-paper-map.jpg}
     \end{column}
   \end{columns}
 %   \includegraphics[width=\textwidth]{images/route-planning-on-paper-map.jpg}
@@ -174,7 +177,7 @@
 %     \begin{column}{.5\textwidth}
 %   \end{column}
     \begin{column}{0.6\textwidth}
-    \includegraphics[max size={\textwidth}{\textheight}]{images/Example_Euclidean_distance.jpg}
+    \includegraphics[max size={\textwidth}{\textheight}]{Image/Example_Euclidean_distance.jpg}
     \end{column}
   \end{columns}
 \end{frame}
@@ -208,7 +211,7 @@
 %     \begin{column}{.5\textwidth}
 %   \end{column}
     \begin{column}{0.8\textwidth}
-    \includegraphics[max size={\textwidth}{\textheight}]{images/OSRM_map_matching_example.png}
+    \includegraphics[max size={\textwidth}{\textheight}]{Image/OSRM_map_matching_example.png}
     \end{column}
   \end{columns}
 \end{frame}
@@ -243,7 +246,6 @@
 \item Pre-processing noisy GPS data 
 \item Travel mode choice: predicting the travel time/distance of different modes
 \item Cycling route choice: simulate the influence of planned cycle infrastructure
-\item https://eng.uber.com/engineering-routing-engine/
 \end{enumerate}
 \end{frame}
 
